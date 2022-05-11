@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> EV </title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" type="text/css" href="./map/style.css" />
+    <script src="./map/index.js"></script>
+  </head>
+ <body>
+    <div id="map"></div>
+
+    <div class="siteLoaderWrap" style="display: none;">
+            <div class="loaderImg">
+                <img src="E:\TY BcsCS\project\MAP folder/loader.gif" class="img-responsive" alt="loader">
+                <p>Loading..</p>
+            </div>
+        </div>
+  
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtDzSrIxOe33q8cp_Yj1dVdqFF6_a6OoQ &callback=initMap&v=weekly"
+      async
+    ></script>
+  </body>
+</html>
